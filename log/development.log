@@ -190,3 +190,4280 @@ ActionController::RoutingError (No route matches [GET] "/images/logo-color.png")
 
 
   Rendered c:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-05-23 15:27:58 +0200
+Served asset /rails.png - 304 Not Modified (74ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-05-23 15:30:15 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (84.0ms)
+Completed 200 OK in 656ms (Views: 656.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-23 15:30:16 +0200
+Served asset /jquery.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/tuktuk.icons.css?body=1" for 127.0.0.1 at 2013-05-23 15:30:16 +0200
+Served asset /tuktuk.icons.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-23 15:30:16 +0200
+Served asset /application.css - 304 Not Modified (70ms)
+
+
+Started GET "/assets/tuktuk.css?body=1" for 127.0.0.1 at 2013-05-23 15:30:16 +0200
+Served asset /tuktuk.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/tuktuk.theme.css?body=1" for 127.0.0.1 at 2013-05-23 15:30:16 +0200
+Served asset /tuktuk.theme.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-23 15:30:16 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-23 15:30:16 +0200
+Served asset /application.js - 304 Not Modified (27ms)
+
+
+Started GET "/assets/tuktuk.js?body=1" for 127.0.0.1 at 2013-05-23 15:30:16 +0200
+Served asset /tuktuk.js - 304 Not Modified (5ms)
+
+
+Started GET "/images/logo-color.png" for 127.0.0.1 at 2013-05-23 15:30:17 +0200
+
+ActionController::RoutingError (No route matches [GET] "/images/logo-color.png"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered c:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-05-23 15:32:23 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 21ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tuktuk.icons.css?body=1" for 127.0.0.1 at 2013-05-23 15:32:23 +0200
+Served asset /tuktuk.icons.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-23 15:32:23 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.css?body=1" for 127.0.0.1 at 2013-05-23 15:32:23 +0200
+Served asset /tuktuk.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.theme.css?body=1" for 127.0.0.1 at 2013-05-23 15:32:23 +0200
+Served asset /tuktuk.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-23 15:32:23 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-23 15:32:23 +0200
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/tuktuk.js?body=1" for 127.0.0.1 at 2013-05-23 15:32:23 +0200
+Served asset /tuktuk.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-23 15:32:23 +0200
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/images/logo-color.png" for 127.0.0.1 at 2013-05-23 15:32:24 +0200
+
+ActionController::RoutingError (No route matches [GET] "/images/logo-color.png"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered c:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-05-23 15:50:54 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (2.0ms)
+Compiled application.css  (33ms)  (pid 3828)
+Completed 200 OK in 211ms (Views: 211.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-23 15:50:54 +0200
+Served asset /application.css - 200 OK (23ms)
+
+
+Started GET "/assets/tuktuk.css?body=1" for 127.0.0.1 at 2013-05-23 15:50:54 +0200
+Served asset /tuktuk.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-23 15:50:54 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.theme.css?body=1" for 127.0.0.1 at 2013-05-23 15:50:54 +0200
+Served asset /tuktuk.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-23 15:50:54 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.icons.css?body=1" for 127.0.0.1 at 2013-05-23 15:50:54 +0200
+Served asset /tuktuk.icons.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.js?body=1" for 127.0.0.1 at 2013-05-23 15:50:54 +0200
+Served asset /tuktuk.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-23 15:50:54 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/images/logo-color.png" for 127.0.0.1 at 2013-05-23 15:50:55 +0200
+
+ActionController::RoutingError (No route matches [GET] "/images/logo-color.png"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered c:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/home" for 127.0.0.1 at 2013-05-23 15:51:50 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (10.0ms)
+Compiled taxife.css  (0ms)  (pid 3116)
+Compiled application.css  (73ms)  (pid 3116)
+Completed 200 OK in 324ms (Views: 324.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tuktuk.css?body=1" for 127.0.0.1 at 2013-05-23 15:51:51 +0200
+Served asset /tuktuk.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/tuktuk.theme.css?body=1" for 127.0.0.1 at 2013-05-23 15:51:51 +0200
+Served asset /tuktuk.theme.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-23 15:51:51 +0200
+Served asset /jquery.js - 304 Not Modified (51ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-23 15:51:51 +0200
+Served asset /application.css - 200 OK (23ms)
+
+
+Started GET "/assets/tuktuk.icons.css?body=1" for 127.0.0.1 at 2013-05-23 15:51:51 +0200
+Served asset /tuktuk.icons.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/taxife.css?body=1" for 127.0.0.1 at 2013-05-23 15:51:51 +0200
+Served asset /taxife.css - 200 OK (7ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-23 15:51:51 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (14ms)
+
+
+Started GET "/assets/tuktuk.js?body=1" for 127.0.0.1 at 2013-05-23 15:51:51 +0200
+Served asset /tuktuk.js - 304 Not Modified (39ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-23 15:51:51 +0200
+Served asset /application.js - 304 Not Modified (72ms)
+
+
+Started GET "/images/logo-color.png" for 127.0.0.1 at 2013-05-23 15:51:51 +0200
+
+ActionController::RoutingError (No route matches [GET] "/images/logo-color.png"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered c:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-05-23 15:52:41 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+Compiled taxife.css  (0ms)  (pid 3116)
+Compiled application.css  (4ms)  (pid 3116)
+Completed 200 OK in 158ms (Views: 158.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-23 15:52:41 +0200
+Served asset /application.css - 304 Not Modified (94ms)
+
+
+Started GET "/assets/taxife.css?body=1" for 127.0.0.1 at 2013-05-23 15:52:41 +0200
+Served asset /taxife.css - 200 OK (9ms)
+
+
+Started GET "/assets/tuktuk.css?body=1" for 127.0.0.1 at 2013-05-23 15:52:41 +0200
+Served asset /tuktuk.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.icons.css?body=1" for 127.0.0.1 at 2013-05-23 15:52:41 +0200
+Served asset /tuktuk.icons.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.theme.css?body=1" for 127.0.0.1 at 2013-05-23 15:52:41 +0200
+Served asset /tuktuk.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-23 15:52:41 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-23 15:52:41 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.js?body=1" for 127.0.0.1 at 2013-05-23 15:52:41 +0200
+Served asset /tuktuk.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-23 15:52:41 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/images/logo-color.png" for 127.0.0.1 at 2013-05-23 15:52:42 +0200
+
+ActionController::RoutingError (No route matches [GET] "/images/logo-color.png"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered c:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/~/assets/images/background.jpg" for 127.0.0.1 at 2013-05-23 15:53:01 +0200
+
+ActionController::RoutingError (No route matches [GET] "/~/assets/images/background.jpg"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered c:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.0ms)
+
+
+Started GET "/~/assets/images/background.jpg" for 127.0.0.1 at 2013-05-23 15:53:21 +0200
+
+ActionController::RoutingError (No route matches [GET] "/~/assets/images/background.jpg"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered c:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/assets/images/background.jpg" for 127.0.0.1 at 2013-05-23 15:53:25 +0200
+Served asset /images/background.jpg - 404 Not Found (9ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/background.jpg"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered c:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/images/background.jpg" for 127.0.0.1 at 2013-05-23 15:53:32 +0200
+
+ActionController::RoutingError (No route matches [GET] "/images/background.jpg"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered c:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/app/assets/images/background.jpg" for 127.0.0.1 at 2013-05-23 15:53:40 +0200
+
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/background.jpg"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered c:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/app/assets/images/background.jpg" for 127.0.0.1 at 2013-05-23 15:54:44 +0200
+
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/background.jpg"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered c:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/app/assets/background.jpg" for 127.0.0.1 at 2013-05-23 15:54:48 +0200
+
+ActionController::RoutingError (No route matches [GET] "/app/assets/background.jpg"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered c:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.0ms)
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2013-05-23 15:54:51 +0200
+Served asset /background.jpg - 200 OK (75ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-05-23 15:55:02 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+Compiled taxife.css  (1ms)  (pid 3116)
+Compiled application.css  (4ms)  (pid 3116)
+Completed 200 OK in 160ms (Views: 160.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-23 15:55:02 +0200
+Served asset /application.css - 304 Not Modified (25ms)
+
+
+Started GET "/assets/tuktuk.css?body=1" for 127.0.0.1 at 2013-05-23 15:55:02 +0200
+Served asset /tuktuk.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/taxife.css?body=1" for 127.0.0.1 at 2013-05-23 15:55:02 +0200
+Served asset /taxife.css - 200 OK (6ms)
+
+
+Started GET "/assets/tuktuk.icons.css?body=1" for 127.0.0.1 at 2013-05-23 15:55:02 +0200
+Served asset /tuktuk.icons.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.theme.css?body=1" for 127.0.0.1 at 2013-05-23 15:55:03 +0200
+Served asset /tuktuk.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-23 15:55:03 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-23 15:55:03 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.js?body=1" for 127.0.0.1 at 2013-05-23 15:55:03 +0200
+Served asset /tuktuk.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-23 15:55:03 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/images/logo-color.png" for 127.0.0.1 at 2013-05-23 15:55:03 +0200
+
+ActionController::RoutingError (No route matches [GET] "/images/logo-color.png"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered c:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.0ms)
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2013-05-23 15:55:28 +0200
+Served asset /background.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-05-23 15:55:55 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+Compiled taxife.css  (1ms)  (pid 3116)
+Compiled application.css  (4ms)  (pid 3116)
+Completed 200 OK in 193ms (Views: 193.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tuktuk.css?body=1" for 127.0.0.1 at 2013-05-23 15:55:55 +0200
+Served asset /tuktuk.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.icons.css?body=1" for 127.0.0.1 at 2013-05-23 15:55:55 +0200
+Served asset /tuktuk.icons.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-23 15:55:55 +0200
+Served asset /application.css - 304 Not Modified (55ms)
+
+
+Started GET "/assets/taxife.css?body=1" for 127.0.0.1 at 2013-05-23 15:55:55 +0200
+Served asset /taxife.css - 200 OK (6ms)
+
+
+Started GET "/assets/tuktuk.theme.css?body=1" for 127.0.0.1 at 2013-05-23 15:55:55 +0200
+Served asset /tuktuk.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-23 15:55:55 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-23 15:55:56 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-23 15:55:56 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.js?body=1" for 127.0.0.1 at 2013-05-23 15:55:56 +0200
+Served asset /tuktuk.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2013-05-23 15:55:56 +0200
+Served asset /background.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/images/logo-color.png" for 127.0.0.1 at 2013-05-23 15:55:56 +0200
+
+ActionController::RoutingError (No route matches [GET] "/images/logo-color.png"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered c:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-05-23 15:56:20 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 20ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-23 15:56:20 +0200
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/taxife.css?body=1" for 127.0.0.1 at 2013-05-23 15:56:21 +0200
+Served asset /taxife.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/tuktuk.icons.css?body=1" for 127.0.0.1 at 2013-05-23 15:56:21 +0200
+Served asset /tuktuk.icons.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.css?body=1" for 127.0.0.1 at 2013-05-23 15:56:21 +0200
+Served asset /tuktuk.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.theme.css?body=1" for 127.0.0.1 at 2013-05-23 15:56:21 +0200
+Served asset /tuktuk.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-23 15:56:21 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-23 15:56:21 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.js?body=1" for 127.0.0.1 at 2013-05-23 15:56:21 +0200
+Served asset /tuktuk.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-23 15:56:21 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2013-05-23 15:56:22 +0200
+Served asset /background.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-05-23 15:56:37 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 18ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tuktuk.css?body=1" for 127.0.0.1 at 2013-05-23 15:56:37 +0200
+Served asset /tuktuk.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.theme.css?body=1" for 127.0.0.1 at 2013-05-23 15:56:37 +0200
+Served asset /tuktuk.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-23 15:56:38 +0200
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/tuktuk.icons.css?body=1" for 127.0.0.1 at 2013-05-23 15:56:38 +0200
+Served asset /tuktuk.icons.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/taxife.css?body=1" for 127.0.0.1 at 2013-05-23 15:56:38 +0200
+Served asset /taxife.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-23 15:56:38 +0200
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-23 15:56:38 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.js?body=1" for 127.0.0.1 at 2013-05-23 15:56:38 +0200
+Served asset /tuktuk.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-23 15:56:38 +0200
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2013-05-23 15:56:38 +0200
+Served asset /background.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-05-23 16:01:47 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Compiled tuktuk.theme.css  (0ms)  (pid 3116)
+Compiled application.css  (3ms)  (pid 3116)
+Completed 200 OK in 202ms (Views: 200.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-23 16:01:47 +0200
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/tuktuk.icons.css?body=1" for 127.0.0.1 at 2013-05-23 16:01:47 +0200
+Served asset /tuktuk.icons.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-23 16:01:47 +0200
+Served asset /application.css - 304 Not Modified (41ms)
+
+
+Started GET "/assets/taxife.css?body=1" for 127.0.0.1 at 2013-05-23 16:01:47 +0200
+Served asset /taxife.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.theme.css?body=1" for 127.0.0.1 at 2013-05-23 16:01:47 +0200
+Served asset /tuktuk.theme.css - 200 OK (6ms)
+
+
+Started GET "/assets/tuktuk.css?body=1" for 127.0.0.1 at 2013-05-23 16:01:47 +0200
+Served asset /tuktuk.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-23 16:01:47 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.js?body=1" for 127.0.0.1 at 2013-05-23 16:01:47 +0200
+Served asset /tuktuk.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-23 16:01:47 +0200
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2013-05-23 16:01:48 +0200
+Served asset /background.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-05-23 16:02:27 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+Compiled tuktuk.theme.css  (0ms)  (pid 3116)
+Compiled application.css  (4ms)  (pid 3116)
+Completed 200 OK in 197ms (Views: 196.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tuktuk.css?body=1" for 127.0.0.1 at 2013-05-23 16:02:27 +0200
+Served asset /tuktuk.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-23 16:02:27 +0200
+Served asset /application.css - 304 Not Modified (16ms)
+
+
+Started GET "/assets/taxife.css?body=1" for 127.0.0.1 at 2013-05-23 16:02:27 +0200
+Served asset /taxife.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.icons.css?body=1" for 127.0.0.1 at 2013-05-23 16:02:27 +0200
+Served asset /tuktuk.icons.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.theme.css?body=1" for 127.0.0.1 at 2013-05-23 16:02:27 +0200
+Served asset /tuktuk.theme.css - 200 OK (12ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-23 16:02:27 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-23 16:02:27 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/tuktuk.js?body=1" for 127.0.0.1 at 2013-05-23 16:02:27 +0200
+Served asset /tuktuk.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-23 16:02:27 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-05-23 16:03:02 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+Compiled tuktuk.theme.css  (0ms)  (pid 3116)
+Compiled application.css  (3ms)  (pid 3116)
+Completed 200 OK in 193ms (Views: 193.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tuktuk.css?body=1" for 127.0.0.1 at 2013-05-23 16:03:02 +0200
+Served asset /tuktuk.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-23 16:03:02 +0200
+Served asset /application.css - 304 Not Modified (15ms)
+
+
+Started GET "/assets/taxife.css?body=1" for 127.0.0.1 at 2013-05-23 16:03:02 +0200
+Served asset /taxife.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.icons.css?body=1" for 127.0.0.1 at 2013-05-23 16:03:02 +0200
+Served asset /tuktuk.icons.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.theme.css?body=1" for 127.0.0.1 at 2013-05-23 16:03:02 +0200
+Served asset /tuktuk.theme.css - 200 OK (8ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-23 16:03:02 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-23 16:03:02 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.js?body=1" for 127.0.0.1 at 2013-05-23 16:03:02 +0200
+Served asset /tuktuk.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-23 16:03:02 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-05-23 16:03:52 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+Compiled tuktuk.theme.css  (0ms)  (pid 3116)
+Compiled application.css  (3ms)  (pid 3116)
+Completed 200 OK in 186ms (Views: 186.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tuktuk.css?body=1" for 127.0.0.1 at 2013-05-23 16:03:53 +0200
+Served asset /tuktuk.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.icons.css?body=1" for 127.0.0.1 at 2013-05-23 16:03:53 +0200
+Served asset /tuktuk.icons.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-23 16:03:53 +0200
+Served asset /application.css - 304 Not Modified (59ms)
+
+
+Started GET "/assets/taxife.css?body=1" for 127.0.0.1 at 2013-05-23 16:03:53 +0200
+Served asset /taxife.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.theme.css?body=1" for 127.0.0.1 at 2013-05-23 16:03:53 +0200
+Served asset /tuktuk.theme.css - 200 OK (5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-23 16:03:53 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-23 16:03:53 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/tuktuk.js?body=1" for 127.0.0.1 at 2013-05-23 16:03:53 +0200
+Served asset /tuktuk.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-23 16:03:53 +0200
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-05-23 16:17:48 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 23ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tuktuk.icons.css?body=1" for 127.0.0.1 at 2013-05-23 16:17:48 +0200
+Served asset /tuktuk.icons.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/taxife.css?body=1" for 127.0.0.1 at 2013-05-23 16:17:48 +0200
+Served asset /taxife.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.css?body=1" for 127.0.0.1 at 2013-05-23 16:17:48 +0200
+Served asset /tuktuk.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.theme.css?body=1" for 127.0.0.1 at 2013-05-23 16:17:48 +0200
+Served asset /tuktuk.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-23 16:17:48 +0200
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-23 16:17:49 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-23 16:17:49 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.js?body=1" for 127.0.0.1 at 2013-05-23 16:17:49 +0200
+Served asset /tuktuk.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-23 16:17:49 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-05-23 16:18:00 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 18ms (Views: 17.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-23 16:18:00 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.css?body=1" for 127.0.0.1 at 2013-05-23 16:18:00 +0200
+Served asset /tuktuk.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/tuktuk.theme.css?body=1" for 127.0.0.1 at 2013-05-23 16:18:00 +0200
+Served asset /tuktuk.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/taxife.css?body=1" for 127.0.0.1 at 2013-05-23 16:18:00 +0200
+Served asset /taxife.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-23 16:18:00 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.icons.css?body=1" for 127.0.0.1 at 2013-05-23 16:18:00 +0200
+Served asset /tuktuk.icons.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-23 16:18:01 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.js?body=1" for 127.0.0.1 at 2013-05-23 16:18:01 +0200
+Served asset /tuktuk.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-23 16:18:01 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-05-23 16:18:19 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 15ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tuktuk.theme.css?body=1" for 127.0.0.1 at 2013-05-23 16:18:19 +0200
+Served asset /tuktuk.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.icons.css?body=1" for 127.0.0.1 at 2013-05-23 16:18:19 +0200
+Served asset /tuktuk.icons.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/taxife.css?body=1" for 127.0.0.1 at 2013-05-23 16:18:19 +0200
+Served asset /taxife.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-23 16:18:19 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.css?body=1" for 127.0.0.1 at 2013-05-23 16:18:19 +0200
+Served asset /tuktuk.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-23 16:18:19 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-23 16:18:19 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.js?body=1" for 127.0.0.1 at 2013-05-23 16:18:19 +0200
+Served asset /tuktuk.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-23 16:18:19 +0200
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-05-23 16:18:47 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 49ms (Views: 49.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tuktuk.icons.css?body=1" for 127.0.0.1 at 2013-05-23 16:18:47 +0200
+Served asset /tuktuk.icons.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/taxife.css?body=1" for 127.0.0.1 at 2013-05-23 16:18:47 +0200
+Served asset /taxife.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-23 16:18:47 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.theme.css?body=1" for 127.0.0.1 at 2013-05-23 16:18:47 +0200
+Served asset /tuktuk.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.css?body=1" for 127.0.0.1 at 2013-05-23 16:18:47 +0200
+Served asset /tuktuk.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-23 16:18:47 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-23 16:18:47 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.js?body=1" for 127.0.0.1 at 2013-05-23 16:18:47 +0200
+Served asset /tuktuk.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-23 16:18:47 +0200
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/images/logo-color.png" for 127.0.0.1 at 2013-05-23 16:18:48 +0200
+
+ActionController::RoutingError (No route matches [GET] "/images/logo-color.png"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered c:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-05-23 16:19:21 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 18ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/taxife.css?body=1" for 127.0.0.1 at 2013-05-23 16:19:21 +0200
+Served asset /taxife.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.theme.css?body=1" for 127.0.0.1 at 2013-05-23 16:19:21 +0200
+Served asset /tuktuk.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.css?body=1" for 127.0.0.1 at 2013-05-23 16:19:21 +0200
+Served asset /tuktuk.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-23 16:19:21 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.icons.css?body=1" for 127.0.0.1 at 2013-05-23 16:19:21 +0200
+Served asset /tuktuk.icons.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-23 16:19:21 +0200
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-23 16:19:21 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-23 16:19:21 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.js?body=1" for 127.0.0.1 at 2013-05-23 16:19:21 +0200
+Served asset /tuktuk.js - 304 Not Modified (1ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-05-23 16:21:16 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 17ms (Views: 17.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/taxife.css?body=1" for 127.0.0.1 at 2013-05-23 16:21:16 +0200
+Served asset /taxife.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.css?body=1" for 127.0.0.1 at 2013-05-23 16:21:16 +0200
+Served asset /tuktuk.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/tuktuk.theme.css?body=1" for 127.0.0.1 at 2013-05-23 16:21:16 +0200
+Served asset /tuktuk.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-23 16:21:16 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.icons.css?body=1" for 127.0.0.1 at 2013-05-23 16:21:16 +0200
+Served asset /tuktuk.icons.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-23 16:21:16 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-23 16:21:16 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/tuktuk.js?body=1" for 127.0.0.1 at 2013-05-23 16:21:16 +0200
+Served asset /tuktuk.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-23 16:21:16 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-05-23 16:21:36 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 17ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/taxife.css?body=1" for 127.0.0.1 at 2013-05-23 16:21:36 +0200
+Served asset /taxife.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-23 16:21:36 +0200
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/tuktuk.icons.css?body=1" for 127.0.0.1 at 2013-05-23 16:21:36 +0200
+Served asset /tuktuk.icons.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.css?body=1" for 127.0.0.1 at 2013-05-23 16:21:36 +0200
+Served asset /tuktuk.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.theme.css?body=1" for 127.0.0.1 at 2013-05-23 16:21:36 +0200
+Served asset /tuktuk.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-23 16:21:36 +0200
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-23 16:21:36 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.js?body=1" for 127.0.0.1 at 2013-05-23 16:21:36 +0200
+Served asset /tuktuk.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-23 16:21:36 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-05-23 16:23:20 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+Compiled taxife.css  (0ms)  (pid 3116)
+Compiled application.css  (3ms)  (pid 3116)
+Completed 200 OK in 192ms (Views: 192.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tuktuk.css?body=1" for 127.0.0.1 at 2013-05-23 16:23:20 +0200
+Served asset /tuktuk.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/taxife.css?body=1" for 127.0.0.1 at 2013-05-23 16:23:20 +0200
+Served asset /taxife.css - 200 OK (7ms)
+
+
+Started GET "/assets/tuktuk.icons.css?body=1" for 127.0.0.1 at 2013-05-23 16:23:20 +0200
+Served asset /tuktuk.icons.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-23 16:23:20 +0200
+Served asset /application.css - 304 Not Modified (50ms)
+
+
+Started GET "/assets/tuktuk.theme.css?body=1" for 127.0.0.1 at 2013-05-23 16:23:20 +0200
+Served asset /tuktuk.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-23 16:23:20 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-23 16:23:20 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.js?body=1" for 127.0.0.1 at 2013-05-23 16:23:21 +0200
+Served asset /tuktuk.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-23 16:23:21 +0200
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/background-2.jpg" for 127.0.0.1 at 2013-05-23 16:23:21 +0200
+Served asset /background-2.jpg - 200 OK (132ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-05-23 16:24:11 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+Compiled taxife.css  (0ms)  (pid 3116)
+Compiled application.css  (4ms)  (pid 3116)
+Completed 200 OK in 162ms (Views: 162.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-23 16:24:11 +0200
+Served asset /application.css - 304 Not Modified (81ms)
+
+
+Started GET "/assets/tuktuk.css?body=1" for 127.0.0.1 at 2013-05-23 16:24:11 +0200
+Served asset /tuktuk.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/taxife.css?body=1" for 127.0.0.1 at 2013-05-23 16:24:11 +0200
+Served asset /taxife.css - 200 OK (5ms)
+
+
+Started GET "/assets/tuktuk.icons.css?body=1" for 127.0.0.1 at 2013-05-23 16:24:11 +0200
+Served asset /tuktuk.icons.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.theme.css?body=1" for 127.0.0.1 at 2013-05-23 16:24:11 +0200
+Served asset /tuktuk.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-23 16:24:11 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-23 16:24:11 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.js?body=1" for 127.0.0.1 at 2013-05-23 16:24:11 +0200
+Served asset /tuktuk.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-23 16:24:11 +0200
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/background-2.jpg" for 127.0.0.1 at 2013-05-23 16:24:12 +0200
+Served asset /background-2.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/background-2.jpg" for 127.0.0.1 at 2013-05-23 16:24:31 +0200
+Served asset /background-2.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-05-23 16:24:44 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 16ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-23 16:24:44 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.icons.css?body=1" for 127.0.0.1 at 2013-05-23 16:24:44 +0200
+Served asset /tuktuk.icons.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/taxife.css?body=1" for 127.0.0.1 at 2013-05-23 16:24:44 +0200
+Served asset /taxife.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.theme.css?body=1" for 127.0.0.1 at 2013-05-23 16:24:44 +0200
+Served asset /tuktuk.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.css?body=1" for 127.0.0.1 at 2013-05-23 16:24:44 +0200
+Served asset /tuktuk.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-23 16:24:44 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-23 16:24:44 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.js?body=1" for 127.0.0.1 at 2013-05-23 16:24:44 +0200
+Served asset /tuktuk.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-23 16:24:44 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-05-23 16:35:19 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 18ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/taxife.css?body=1" for 127.0.0.1 at 2013-05-23 16:35:19 +0200
+Served asset /taxife.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/tuktuk.theme.css?body=1" for 127.0.0.1 at 2013-05-23 16:35:19 +0200
+Served asset /tuktuk.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-23 16:35:19 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.css?body=1" for 127.0.0.1 at 2013-05-23 16:35:19 +0200
+Served asset /tuktuk.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.icons.css?body=1" for 127.0.0.1 at 2013-05-23 16:35:19 +0200
+Served asset /tuktuk.icons.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-23 16:35:20 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-23 16:35:20 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-23 16:35:20 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.js?body=1" for 127.0.0.1 at 2013-05-23 16:35:20 +0200
+Served asset /tuktuk.js - 304 Not Modified (0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-05-23 16:35:26 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+Compiled taxife.css  (0ms)  (pid 3116)
+Compiled application.css  (4ms)  (pid 3116)
+Completed 200 OK in 159ms (Views: 159.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-23 16:35:26 +0200
+Served asset /application.css - 304 Not Modified (15ms)
+
+
+Started GET "/assets/tuktuk.icons.css?body=1" for 127.0.0.1 at 2013-05-23 16:35:26 +0200
+Served asset /tuktuk.icons.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/taxife.css?body=1" for 127.0.0.1 at 2013-05-23 16:35:26 +0200
+Served asset /taxife.css - 200 OK (7ms)
+
+
+Started GET "/assets/tuktuk.theme.css?body=1" for 127.0.0.1 at 2013-05-23 16:35:27 +0200
+Served asset /tuktuk.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.css?body=1" for 127.0.0.1 at 2013-05-23 16:35:27 +0200
+Served asset /tuktuk.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-23 16:35:27 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-23 16:35:27 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.js?body=1" for 127.0.0.1 at 2013-05-23 16:35:27 +0200
+Served asset /tuktuk.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-23 16:35:27 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2013-05-23 16:35:27 +0200
+Served asset /background.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-05-23 16:36:15 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 19ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tuktuk.icons.css?body=1" for 127.0.0.1 at 2013-05-23 16:36:15 +0200
+Served asset /tuktuk.icons.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-23 16:36:16 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.css?body=1" for 127.0.0.1 at 2013-05-23 16:36:16 +0200
+Served asset /tuktuk.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.theme.css?body=1" for 127.0.0.1 at 2013-05-23 16:36:16 +0200
+Served asset /tuktuk.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/taxife.css?body=1" for 127.0.0.1 at 2013-05-23 16:36:16 +0200
+Served asset /taxife.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-23 16:36:16 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-23 16:36:16 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.js?body=1" for 127.0.0.1 at 2013-05-23 16:36:16 +0200
+Served asset /tuktuk.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-23 16:36:16 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2013-05-23 16:36:16 +0200
+Served asset /background.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-05-23 16:42:40 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Compiled taxife.css  (1ms)  (pid 3116)
+Compiled application.css  (4ms)  (pid 3116)
+Completed 200 OK in 173ms (Views: 172.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-23 16:42:40 +0200
+Served asset /application.css - 304 Not Modified (37ms)
+
+
+Started GET "/assets/tuktuk.theme.css?body=1" for 127.0.0.1 at 2013-05-23 16:42:40 +0200
+Served asset /tuktuk.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.css?body=1" for 127.0.0.1 at 2013-05-23 16:42:40 +0200
+Served asset /tuktuk.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-23 16:42:40 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/taxife.css?body=1" for 127.0.0.1 at 2013-05-23 16:42:40 +0200
+Served asset /taxife.css - 200 OK (6ms)
+
+
+Started GET "/assets/tuktuk.icons.css?body=1" for 127.0.0.1 at 2013-05-23 16:42:40 +0200
+Served asset /tuktuk.icons.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-23 16:42:40 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/tuktuk.js?body=1" for 127.0.0.1 at 2013-05-23 16:42:41 +0200
+Served asset /tuktuk.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-23 16:42:41 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2013-05-23 16:42:41 +0200
+Served asset /background.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assets/taxife.woff" for 127.0.0.1 at 2013-05-23 16:42:41 +0200
+Served asset /assets/taxife.woff - 404 Not Found (12ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/assets/taxife.woff"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered c:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (4.0ms)
+
+
+Started GET "/assets/assets/taxife.ttf" for 127.0.0.1 at 2013-05-23 16:42:42 +0200
+Served asset /assets/taxife.ttf - 404 Not Found (18ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/assets/taxife.ttf"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered c:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.0ms)
+
+
+Started GET "/assets/assets/taxife.svg" for 127.0.0.1 at 2013-05-23 16:42:42 +0200
+Served asset /assets/taxife.svg - 404 Not Found (43ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/assets/taxife.svg"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered c:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (8.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-05-23 16:43:54 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 19ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-23 16:43:54 +0200
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/tuktuk.css?body=1" for 127.0.0.1 at 2013-05-23 16:43:54 +0200
+Served asset /tuktuk.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.icons.css?body=1" for 127.0.0.1 at 2013-05-23 16:43:54 +0200
+Served asset /tuktuk.icons.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/taxife.css?body=1" for 127.0.0.1 at 2013-05-23 16:43:54 +0200
+Served asset /taxife.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/tuktuk.theme.css?body=1" for 127.0.0.1 at 2013-05-23 16:43:54 +0200
+Served asset /tuktuk.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-23 16:43:54 +0200
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-23 16:43:54 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.js?body=1" for 127.0.0.1 at 2013-05-23 16:43:54 +0200
+Served asset /tuktuk.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-23 16:43:54 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-05-23 16:50:33 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 17ms (Views: 17.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tuktuk.css?body=1" for 127.0.0.1 at 2013-05-23 16:50:33 +0200
+Served asset /tuktuk.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.icons.css?body=1" for 127.0.0.1 at 2013-05-23 16:50:33 +0200
+Served asset /tuktuk.icons.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/taxife.css?body=1" for 127.0.0.1 at 2013-05-23 16:50:33 +0200
+Served asset /taxife.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-23 16:50:33 +0200
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/tuktuk.theme.css?body=1" for 127.0.0.1 at 2013-05-23 16:50:33 +0200
+Served asset /tuktuk.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-23 16:50:33 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-23 16:50:33 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.js?body=1" for 127.0.0.1 at 2013-05-23 16:50:33 +0200
+Served asset /tuktuk.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-23 16:50:33 +0200
+Served asset /application.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/logo_android.png" for 127.0.0.1 at 2013-05-23 16:50:34 +0200
+Served asset /logo_android.png - 404 Not Found (20ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/logo_android.png"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered c:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.0ms)
+
+
+Started GET "/assets/logo_apple.png" for 127.0.0.1 at 2013-05-23 16:50:34 +0200
+Served asset /logo_apple.png - 404 Not Found (12ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/logo_apple.png"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered c:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.0ms)
+
+
+Started GET "/assets/logo_blackberry.png" for 127.0.0.1 at 2013-05-23 16:50:34 +0200
+Served asset /logo_blackberry.png - 404 Not Found (18ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/logo_blackberry.png"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered c:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-05-23 16:51:42 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 21ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/taxife.css?body=1" for 127.0.0.1 at 2013-05-23 16:51:42 +0200
+Served asset /taxife.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.icons.css?body=1" for 127.0.0.1 at 2013-05-23 16:51:42 +0200
+Served asset /tuktuk.icons.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.css?body=1" for 127.0.0.1 at 2013-05-23 16:51:42 +0200
+Served asset /tuktuk.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-23 16:51:42 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.theme.css?body=1" for 127.0.0.1 at 2013-05-23 16:51:43 +0200
+Served asset /tuktuk.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-23 16:51:43 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-23 16:51:43 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.js?body=1" for 127.0.0.1 at 2013-05-23 16:51:43 +0200
+Served asset /tuktuk.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-23 16:51:43 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_android.png" for 127.0.0.1 at 2013-05-23 16:51:43 +0200
+Served asset /logo_android.png - 200 OK (66ms)
+
+
+Started GET "/assets/logo_apple.png" for 127.0.0.1 at 2013-05-23 16:51:43 +0200
+Served asset /logo_apple.png - 200 OK (105ms)
+
+
+Started GET "/assets/logo_blackberry.png" for 127.0.0.1 at 2013-05-23 16:51:43 +0200
+Served asset /logo_blackberry.png - 200 OK (134ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-05-23 16:53:00 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 18ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/taxife.css?body=1" for 127.0.0.1 at 2013-05-23 16:53:00 +0200
+Served asset /taxife.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.icons.css?body=1" for 127.0.0.1 at 2013-05-23 16:53:00 +0200
+Served asset /tuktuk.icons.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-23 16:53:00 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.css?body=1" for 127.0.0.1 at 2013-05-23 16:53:00 +0200
+Served asset /tuktuk.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-23 16:53:00 +0200
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/tuktuk.theme.css?body=1" for 127.0.0.1 at 2013-05-23 16:53:00 +0200
+Served asset /tuktuk.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-23 16:53:00 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.js?body=1" for 127.0.0.1 at 2013-05-23 16:53:00 +0200
+Served asset /tuktuk.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-23 16:53:00 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_android.png" for 127.0.0.1 at 2013-05-23 16:53:01 +0200
+Served asset /logo_android.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_apple.png" for 127.0.0.1 at 2013-05-23 16:53:01 +0200
+Served asset /logo_apple.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_blackberry.png" for 127.0.0.1 at 2013-05-23 16:53:01 +0200
+Served asset /logo_blackberry.png - 304 Not Modified (0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-05-23 16:54:55 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+Compiled taxife.css  (35ms)  (pid 3116)
+Compiled application.css  (5ms)  (pid 3116)
+Completed 200 OK in 199ms (Views: 199.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tuktuk.icons.css?body=1" for 127.0.0.1 at 2013-05-23 16:54:55 +0200
+Served asset /tuktuk.icons.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/taxife.css?body=1" for 127.0.0.1 at 2013-05-23 16:54:55 +0200
+Served asset /taxife.css - 200 OK (12ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-23 16:54:55 +0200
+Served asset /application.css - 304 Not Modified (21ms)
+
+
+Started GET "/assets/tuktuk.css?body=1" for 127.0.0.1 at 2013-05-23 16:54:56 +0200
+Served asset /tuktuk.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/tuktuk.theme.css?body=1" for 127.0.0.1 at 2013-05-23 16:54:56 +0200
+Served asset /tuktuk.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-23 16:54:56 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-23 16:54:56 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.js?body=1" for 127.0.0.1 at 2013-05-23 16:54:56 +0200
+Served asset /tuktuk.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-23 16:54:56 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2013-05-23 16:54:56 +0200
+Served asset /background.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_android.png" for 127.0.0.1 at 2013-05-23 16:54:56 +0200
+Served asset /logo_android.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assets/taxife.woff" for 127.0.0.1 at 2013-05-23 16:54:56 +0200
+Served asset /assets/taxife.woff - 404 Not Found (10ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/assets/taxife.woff"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered c:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.0ms)
+
+
+Started GET "/assets/logo_apple.png" for 127.0.0.1 at 2013-05-23 16:54:57 +0200
+Served asset /logo_apple.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_blackberry.png" for 127.0.0.1 at 2013-05-23 16:54:57 +0200
+Served asset /logo_blackberry.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assets/taxife.ttf" for 127.0.0.1 at 2013-05-23 16:54:57 +0200
+Served asset /assets/taxife.ttf - 404 Not Found (19ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/assets/taxife.ttf"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered c:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/assets/assets/taxife.svg" for 127.0.0.1 at 2013-05-23 16:54:57 +0200
+Served asset /assets/taxife.svg - 404 Not Found (14ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/assets/taxife.svg"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered c:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-05-23 16:55:50 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 17ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/taxife.css?body=1" for 127.0.0.1 at 2013-05-23 16:55:50 +0200
+Served asset /taxife.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-23 16:55:50 +0200
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-23 16:55:50 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.icons.css?body=1" for 127.0.0.1 at 2013-05-23 16:55:50 +0200
+Served asset /tuktuk.icons.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.css?body=1" for 127.0.0.1 at 2013-05-23 16:55:50 +0200
+Served asset /tuktuk.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.theme.css?body=1" for 127.0.0.1 at 2013-05-23 16:55:50 +0200
+Served asset /tuktuk.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-23 16:55:50 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.js?body=1" for 127.0.0.1 at 2013-05-23 16:55:50 +0200
+Served asset /tuktuk.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-23 16:55:50 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_apple.png" for 127.0.0.1 at 2013-05-23 16:55:51 +0200
+Served asset /logo_apple.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_blackberry.png" for 127.0.0.1 at 2013-05-23 16:55:51 +0200
+Served asset /logo_blackberry.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_android.png" for 127.0.0.1 at 2013-05-23 16:55:51 +0200
+Served asset /logo_android.png - 304 Not Modified (0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-05-23 16:56:32 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 21ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-23 16:56:32 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.icons.css?body=1" for 127.0.0.1 at 2013-05-23 16:56:32 +0200
+Served asset /tuktuk.icons.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-23 16:56:32 +0200
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/taxife.css?body=1" for 127.0.0.1 at 2013-05-23 16:56:32 +0200
+Served asset /taxife.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.css?body=1" for 127.0.0.1 at 2013-05-23 16:56:32 +0200
+Served asset /tuktuk.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.theme.css?body=1" for 127.0.0.1 at 2013-05-23 16:56:32 +0200
+Served asset /tuktuk.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-23 16:56:32 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.js?body=1" for 127.0.0.1 at 2013-05-23 16:56:32 +0200
+Served asset /tuktuk.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-23 16:56:32 +0200
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/logo_android.png" for 127.0.0.1 at 2013-05-23 16:56:33 +0200
+Served asset /logo_android.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_apple.png" for 127.0.0.1 at 2013-05-23 16:56:33 +0200
+Served asset /logo_apple.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_blackberry.png" for 127.0.0.1 at 2013-05-23 16:56:33 +0200
+Served asset /logo_blackberry.png - 304 Not Modified (0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-05-23 16:56:49 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 18ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-23 16:56:49 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.css?body=1" for 127.0.0.1 at 2013-05-23 16:56:49 +0200
+Served asset /tuktuk.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/taxife.css?body=1" for 127.0.0.1 at 2013-05-23 16:56:49 +0200
+Served asset /taxife.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.icons.css?body=1" for 127.0.0.1 at 2013-05-23 16:56:49 +0200
+Served asset /tuktuk.icons.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.theme.css?body=1" for 127.0.0.1 at 2013-05-23 16:56:49 +0200
+Served asset /tuktuk.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-23 16:56:49 +0200
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-23 16:56:49 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.js?body=1" for 127.0.0.1 at 2013-05-23 16:56:49 +0200
+Served asset /tuktuk.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-23 16:56:49 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_android.png" for 127.0.0.1 at 2013-05-23 16:56:50 +0200
+Served asset /logo_android.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_apple.png" for 127.0.0.1 at 2013-05-23 16:56:50 +0200
+Served asset /logo_apple.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_blackberry.png" for 127.0.0.1 at 2013-05-23 16:56:50 +0200
+Served asset /logo_blackberry.png - 304 Not Modified (0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-05-23 16:57:15 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 17ms (Views: 17.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-23 16:57:15 +0200
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/tuktuk.css?body=1" for 127.0.0.1 at 2013-05-23 16:57:15 +0200
+Served asset /tuktuk.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.theme.css?body=1" for 127.0.0.1 at 2013-05-23 16:57:15 +0200
+Served asset /tuktuk.theme.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/taxife.css?body=1" for 127.0.0.1 at 2013-05-23 16:57:15 +0200
+Served asset /taxife.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.icons.css?body=1" for 127.0.0.1 at 2013-05-23 16:57:15 +0200
+Served asset /tuktuk.icons.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-23 16:57:15 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-23 16:57:15 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.js?body=1" for 127.0.0.1 at 2013-05-23 16:57:16 +0200
+Served asset /tuktuk.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-23 16:57:16 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_android.png" for 127.0.0.1 at 2013-05-23 16:57:16 +0200
+Served asset /logo_android.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_apple.png" for 127.0.0.1 at 2013-05-23 16:57:16 +0200
+Served asset /logo_apple.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_blackberry.png" for 127.0.0.1 at 2013-05-23 16:57:16 +0200
+Served asset /logo_blackberry.png - 304 Not Modified (0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-05-23 16:57:46 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 17ms (Views: 17.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-23 16:57:46 +0200
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/tuktuk.css?body=1" for 127.0.0.1 at 2013-05-23 16:57:46 +0200
+Served asset /tuktuk.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.icons.css?body=1" for 127.0.0.1 at 2013-05-23 16:57:46 +0200
+Served asset /tuktuk.icons.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/taxife.css?body=1" for 127.0.0.1 at 2013-05-23 16:57:46 +0200
+Served asset /taxife.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/tuktuk.theme.css?body=1" for 127.0.0.1 at 2013-05-23 16:57:47 +0200
+Served asset /tuktuk.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-23 16:57:47 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-23 16:57:47 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/tuktuk.js?body=1" for 127.0.0.1 at 2013-05-23 16:57:47 +0200
+Served asset /tuktuk.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-23 16:57:47 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_android.png" for 127.0.0.1 at 2013-05-23 16:57:47 +0200
+Served asset /logo_android.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_apple.png" for 127.0.0.1 at 2013-05-23 16:57:47 +0200
+Served asset /logo_apple.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_blackberry.png" for 127.0.0.1 at 2013-05-23 16:57:47 +0200
+Served asset /logo_blackberry.png - 304 Not Modified (0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-05-23 16:57:59 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 19ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-23 16:57:59 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/taxife.css?body=1" for 127.0.0.1 at 2013-05-23 16:57:59 +0200
+Served asset /taxife.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.css?body=1" for 127.0.0.1 at 2013-05-23 16:57:59 +0200
+Served asset /tuktuk.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.theme.css?body=1" for 127.0.0.1 at 2013-05-23 16:57:59 +0200
+Served asset /tuktuk.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-23 16:57:59 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.icons.css?body=1" for 127.0.0.1 at 2013-05-23 16:57:59 +0200
+Served asset /tuktuk.icons.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-23 16:57:59 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.js?body=1" for 127.0.0.1 at 2013-05-23 16:58:00 +0200
+Served asset /tuktuk.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-23 16:58:00 +0200
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/logo_apple.png" for 127.0.0.1 at 2013-05-23 16:58:00 +0200
+Served asset /logo_apple.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_blackberry.png" for 127.0.0.1 at 2013-05-23 16:58:00 +0200
+Served asset /logo_blackberry.png - 304 Not Modified (3ms)
+
+
+Started GET "/assets/logo_android.png" for 127.0.0.1 at 2013-05-23 16:58:00 +0200
+Served asset /logo_android.png - 304 Not Modified (0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-05-23 16:58:34 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 19ms (Views: 19.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/taxife.css?body=1" for 127.0.0.1 at 2013-05-23 16:58:34 +0200
+Served asset /taxife.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-23 16:58:34 +0200
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/tuktuk.theme.css?body=1" for 127.0.0.1 at 2013-05-23 16:58:34 +0200
+Served asset /tuktuk.theme.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-23 16:58:34 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.css?body=1" for 127.0.0.1 at 2013-05-23 16:58:34 +0200
+Served asset /tuktuk.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.icons.css?body=1" for 127.0.0.1 at 2013-05-23 16:58:34 +0200
+Served asset /tuktuk.icons.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-23 16:58:35 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-23 16:58:35 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.js?body=1" for 127.0.0.1 at 2013-05-23 16:58:35 +0200
+Served asset /tuktuk.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_android.png" for 127.0.0.1 at 2013-05-23 16:58:35 +0200
+Served asset /logo_android.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/logo_apple.png" for 127.0.0.1 at 2013-05-23 16:58:35 +0200
+Served asset /logo_apple.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_blackberry.png" for 127.0.0.1 at 2013-05-23 16:58:35 +0200
+Served asset /logo_blackberry.png - 304 Not Modified (0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-05-23 17:00:05 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 17ms (Views: 17.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tuktuk.theme.css?body=1" for 127.0.0.1 at 2013-05-23 17:00:05 +0200
+Served asset /tuktuk.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.css?body=1" for 127.0.0.1 at 2013-05-23 17:00:05 +0200
+Served asset /tuktuk.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-23 17:00:05 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.icons.css?body=1" for 127.0.0.1 at 2013-05-23 17:00:05 +0200
+Served asset /tuktuk.icons.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/taxife.css?body=1" for 127.0.0.1 at 2013-05-23 17:00:05 +0200
+Served asset /taxife.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-23 17:00:06 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.js?body=1" for 127.0.0.1 at 2013-05-23 17:00:06 +0200
+Served asset /tuktuk.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-23 17:00:06 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-23 17:00:06 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_apple.png" for 127.0.0.1 at 2013-05-23 17:00:06 +0200
+Served asset /logo_apple.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_blackberry.png" for 127.0.0.1 at 2013-05-23 17:00:06 +0200
+Served asset /logo_blackberry.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_android.png" for 127.0.0.1 at 2013-05-23 17:00:06 +0200
+Served asset /logo_android.png - 304 Not Modified (0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-05-23 17:00:31 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 20ms (Views: 19.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-23 17:00:31 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.icons.css?body=1" for 127.0.0.1 at 2013-05-23 17:00:31 +0200
+Served asset /tuktuk.icons.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/taxife.css?body=1" for 127.0.0.1 at 2013-05-23 17:00:31 +0200
+Served asset /taxife.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-23 17:00:31 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.css?body=1" for 127.0.0.1 at 2013-05-23 17:00:31 +0200
+Served asset /tuktuk.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.theme.css?body=1" for 127.0.0.1 at 2013-05-23 17:00:31 +0200
+Served asset /tuktuk.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-23 17:00:32 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.js?body=1" for 127.0.0.1 at 2013-05-23 17:00:32 +0200
+Served asset /tuktuk.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-23 17:00:32 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_android.png" for 127.0.0.1 at 2013-05-23 17:00:32 +0200
+Served asset /logo_android.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_apple.png" for 127.0.0.1 at 2013-05-23 17:00:32 +0200
+Served asset /logo_apple.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_blackberry.png" for 127.0.0.1 at 2013-05-23 17:00:32 +0200
+Served asset /logo_blackberry.png - 304 Not Modified (0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-05-23 17:01:19 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 17ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-23 17:01:19 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.css?body=1" for 127.0.0.1 at 2013-05-23 17:01:19 +0200
+Served asset /tuktuk.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.icons.css?body=1" for 127.0.0.1 at 2013-05-23 17:01:19 +0200
+Served asset /tuktuk.icons.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/taxife.css?body=1" for 127.0.0.1 at 2013-05-23 17:01:19 +0200
+Served asset /taxife.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.theme.css?body=1" for 127.0.0.1 at 2013-05-23 17:01:19 +0200
+Served asset /tuktuk.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-23 17:01:19 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-23 17:01:19 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.js?body=1" for 127.0.0.1 at 2013-05-23 17:01:19 +0200
+Served asset /tuktuk.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-23 17:01:19 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_android.png" for 127.0.0.1 at 2013-05-23 17:01:20 +0200
+Served asset /logo_android.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_apple.png" for 127.0.0.1 at 2013-05-23 17:01:20 +0200
+Served asset /logo_apple.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_blackberry.png" for 127.0.0.1 at 2013-05-23 17:01:20 +0200
+Served asset /logo_blackberry.png - 304 Not Modified (0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-05-23 17:01:32 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 19ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-23 17:01:32 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/taxife.css?body=1" for 127.0.0.1 at 2013-05-23 17:01:32 +0200
+Served asset /taxife.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.icons.css?body=1" for 127.0.0.1 at 2013-05-23 17:01:32 +0200
+Served asset /tuktuk.icons.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.css?body=1" for 127.0.0.1 at 2013-05-23 17:01:32 +0200
+Served asset /tuktuk.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.theme.css?body=1" for 127.0.0.1 at 2013-05-23 17:01:32 +0200
+Served asset /tuktuk.theme.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-23 17:01:32 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-23 17:01:32 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-23 17:01:33 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.js?body=1" for 127.0.0.1 at 2013-05-23 17:01:33 +0200
+Served asset /tuktuk.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/logo_android.png" for 127.0.0.1 at 2013-05-23 17:01:33 +0200
+Served asset /logo_android.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_apple.png" for 127.0.0.1 at 2013-05-23 17:01:33 +0200
+Served asset /logo_apple.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_blackberry.png" for 127.0.0.1 at 2013-05-23 17:01:33 +0200
+Served asset /logo_blackberry.png - 304 Not Modified (0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-05-23 17:02:00 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 19ms (Views: 19.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-23 17:02:00 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/taxife.css?body=1" for 127.0.0.1 at 2013-05-23 17:02:00 +0200
+Served asset /taxife.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.css?body=1" for 127.0.0.1 at 2013-05-23 17:02:00 +0200
+Served asset /tuktuk.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.icons.css?body=1" for 127.0.0.1 at 2013-05-23 17:02:00 +0200
+Served asset /tuktuk.icons.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.theme.css?body=1" for 127.0.0.1 at 2013-05-23 17:02:00 +0200
+Served asset /tuktuk.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-23 17:02:00 +0200
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-23 17:02:00 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.js?body=1" for 127.0.0.1 at 2013-05-23 17:02:00 +0200
+Served asset /tuktuk.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-23 17:02:00 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_android.png" for 127.0.0.1 at 2013-05-23 17:02:01 +0200
+Served asset /logo_android.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/logo_apple.png" for 127.0.0.1 at 2013-05-23 17:02:01 +0200
+Served asset /logo_apple.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_blackberry.png" for 127.0.0.1 at 2013-05-23 17:02:01 +0200
+Served asset /logo_blackberry.png - 304 Not Modified (0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-05-23 17:09:18 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 22ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/taxife.css?body=1" for 127.0.0.1 at 2013-05-23 17:09:18 +0200
+Served asset /taxife.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.icons.css?body=1" for 127.0.0.1 at 2013-05-23 17:09:18 +0200
+Served asset /tuktuk.icons.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-23 17:09:18 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.theme.css?body=1" for 127.0.0.1 at 2013-05-23 17:09:18 +0200
+Served asset /tuktuk.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.css?body=1" for 127.0.0.1 at 2013-05-23 17:09:18 +0200
+Served asset /tuktuk.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-23 17:09:18 +0200
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-23 17:09:18 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.js?body=1" for 127.0.0.1 at 2013-05-23 17:09:18 +0200
+Served asset /tuktuk.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-23 17:09:18 +0200
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/logo_apple.png" for 127.0.0.1 at 2013-05-23 17:09:19 +0200
+Served asset /logo_apple.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_android.png" for 127.0.0.1 at 2013-05-23 17:09:19 +0200
+Served asset /logo_android.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_blackberry.png" for 127.0.0.1 at 2013-05-23 17:09:19 +0200
+Served asset /logo_blackberry.png - 304 Not Modified (0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-05-23 17:09:56 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 19ms (Views: 19.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-23 17:09:56 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.icons.css?body=1" for 127.0.0.1 at 2013-05-23 17:09:56 +0200
+Served asset /tuktuk.icons.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.css?body=1" for 127.0.0.1 at 2013-05-23 17:09:56 +0200
+Served asset /tuktuk.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/taxife.css?body=1" for 127.0.0.1 at 2013-05-23 17:09:56 +0200
+Served asset /taxife.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.theme.css?body=1" for 127.0.0.1 at 2013-05-23 17:09:56 +0200
+Served asset /tuktuk.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-23 17:09:56 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-23 17:09:57 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.js?body=1" for 127.0.0.1 at 2013-05-23 17:09:57 +0200
+Served asset /tuktuk.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-23 17:09:57 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_apple.png" for 127.0.0.1 at 2013-05-23 17:09:57 +0200
+Served asset /logo_apple.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_android.png" for 127.0.0.1 at 2013-05-23 17:09:57 +0200
+Served asset /logo_android.png - 304 Not Modified (0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-05-23 17:15:17 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 19ms (Views: 19.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-23 17:15:17 +0200
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/tuktuk.icons.css?body=1" for 127.0.0.1 at 2013-05-23 17:15:17 +0200
+Served asset /tuktuk.icons.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/taxife.css?body=1" for 127.0.0.1 at 2013-05-23 17:15:17 +0200
+Served asset /taxife.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-23 17:15:17 +0200
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/tuktuk.css?body=1" for 127.0.0.1 at 2013-05-23 17:15:17 +0200
+Served asset /tuktuk.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/tuktuk.theme.css?body=1" for 127.0.0.1 at 2013-05-23 17:15:17 +0200
+Served asset /tuktuk.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-23 17:15:17 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-23 17:15:17 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.js?body=1" for 127.0.0.1 at 2013-05-23 17:15:17 +0200
+Served asset /tuktuk.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/icono.png" for 127.0.0.1 at 2013-05-23 17:15:18 +0200
+Served asset /icono.png - 200 OK (74ms)
+
+
+Started GET "/assets/logo_apple.png" for 127.0.0.1 at 2013-05-23 17:15:18 +0200
+Served asset /logo_apple.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_android.png" for 127.0.0.1 at 2013-05-23 17:15:18 +0200
+Served asset /logo_android.png - 304 Not Modified (0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-05-23 17:17:21 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 22ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-23 17:17:21 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.icons.css?body=1" for 127.0.0.1 at 2013-05-23 17:17:21 +0200
+Served asset /tuktuk.icons.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/taxife.css?body=1" for 127.0.0.1 at 2013-05-23 17:17:22 +0200
+Served asset /taxife.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.theme.css?body=1" for 127.0.0.1 at 2013-05-23 17:17:22 +0200
+Served asset /tuktuk.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.css?body=1" for 127.0.0.1 at 2013-05-23 17:17:22 +0200
+Served asset /tuktuk.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-23 17:17:22 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-23 17:17:22 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.js?body=1" for 127.0.0.1 at 2013-05-23 17:17:22 +0200
+Served asset /tuktuk.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-23 17:17:22 +0200
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/logo_apple.png" for 127.0.0.1 at 2013-05-23 17:17:23 +0200
+Served asset /logo_apple.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/icono.png" for 127.0.0.1 at 2013-05-23 17:17:23 +0200
+Served asset /icono.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_android.png" for 127.0.0.1 at 2013-05-23 17:17:23 +0200
+Served asset /logo_android.png - 304 Not Modified (0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-05-23 17:39:08 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+Compiled taxife.css  (0ms)  (pid 3116)
+Compiled application.css  (4ms)  (pid 3116)
+Completed 200 OK in 254ms (Views: 253.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/taxife.css?body=1" for 127.0.0.1 at 2013-05-23 17:39:08 +0200
+Served asset /taxife.css - 200 OK (6ms)
+
+
+Started GET "/assets/tuktuk.css?body=1" for 127.0.0.1 at 2013-05-23 17:39:08 +0200
+Served asset /tuktuk.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-23 17:39:08 +0200
+Served asset /application.css - 304 Not Modified (23ms)
+
+
+Started GET "/assets/tuktuk.icons.css?body=1" for 127.0.0.1 at 2013-05-23 17:39:08 +0200
+Served asset /tuktuk.icons.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.theme.css?body=1" for 127.0.0.1 at 2013-05-23 17:39:08 +0200
+Served asset /tuktuk.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-23 17:39:08 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-23 17:39:08 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.js?body=1" for 127.0.0.1 at 2013-05-23 17:39:08 +0200
+Served asset /tuktuk.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-23 17:39:08 +0200
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/background-3.jpeg" for 127.0.0.1 at 2013-05-23 17:39:09 +0200
+Served asset /background-3.jpeg - 200 OK (163ms)
+
+
+Started GET "/assets/logo_apple.png" for 127.0.0.1 at 2013-05-23 17:39:09 +0200
+Served asset /logo_apple.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/icono.png" for 127.0.0.1 at 2013-05-23 17:39:09 +0200
+Served asset /icono.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_android.png" for 127.0.0.1 at 2013-05-23 17:39:09 +0200
+Served asset /logo_android.png - 304 Not Modified (0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-05-23 17:42:33 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Compiled taxife.css  (0ms)  (pid 3116)
+Compiled application.css  (3ms)  (pid 3116)
+Completed 200 OK in 171ms (Views: 170.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/taxife.css?body=1" for 127.0.0.1 at 2013-05-23 17:42:34 +0200
+Served asset /taxife.css - 200 OK (5ms)
+
+
+Started GET "/assets/tuktuk.css?body=1" for 127.0.0.1 at 2013-05-23 17:42:34 +0200
+Served asset /tuktuk.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-23 17:42:34 +0200
+Served asset /application.css - 304 Not Modified (40ms)
+
+
+Started GET "/assets/tuktuk.theme.css?body=1" for 127.0.0.1 at 2013-05-23 17:42:34 +0200
+Served asset /tuktuk.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.icons.css?body=1" for 127.0.0.1 at 2013-05-23 17:42:34 +0200
+Served asset /tuktuk.icons.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-23 17:42:34 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-23 17:42:34 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.js?body=1" for 127.0.0.1 at 2013-05-23 17:42:34 +0200
+Served asset /tuktuk.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-23 17:42:34 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/icono.png" for 127.0.0.1 at 2013-05-23 17:42:35 +0200
+Served asset /icono.png - 200 OK (70ms)
+
+
+Started GET "/assets/backgroundbn.png" for 127.0.0.1 at 2013-05-23 17:42:35 +0200
+Served asset /backgroundbn.png - 200 OK (88ms)
+
+
+Started GET "/assets/logo_apple.png" for 127.0.0.1 at 2013-05-23 17:42:35 +0200
+Served asset /logo_apple.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/logo_android.png" for 127.0.0.1 at 2013-05-23 17:42:35 +0200
+Served asset /logo_android.png - 304 Not Modified (0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-05-23 17:44:52 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+Compiled taxife.css  (1ms)  (pid 3116)
+Compiled application.css  (4ms)  (pid 3116)
+Completed 200 OK in 159ms (Views: 159.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tuktuk.icons.css?body=1" for 127.0.0.1 at 2013-05-23 17:44:52 +0200
+Served asset /tuktuk.icons.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.css?body=1" for 127.0.0.1 at 2013-05-23 17:44:52 +0200
+Served asset /tuktuk.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-23 17:44:52 +0200
+Served asset /application.css - 304 Not Modified (27ms)
+
+
+Started GET "/assets/taxife.css?body=1" for 127.0.0.1 at 2013-05-23 17:44:52 +0200
+Served asset /taxife.css - 200 OK (14ms)
+
+
+Started GET "/assets/tuktuk.theme.css?body=1" for 127.0.0.1 at 2013-05-23 17:44:52 +0200
+Served asset /tuktuk.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-23 17:44:52 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-23 17:44:52 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.js?body=1" for 127.0.0.1 at 2013-05-23 17:44:52 +0200
+Served asset /tuktuk.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-23 17:44:53 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/background-3.jpg" for 127.0.0.1 at 2013-05-23 17:44:53 +0200
+Served asset /background-3.jpg - 200 OK (182ms)
+
+
+Started GET "/assets/icono.png" for 127.0.0.1 at 2013-05-23 17:44:53 +0200
+Served asset /icono.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_apple.png" for 127.0.0.1 at 2013-05-23 17:44:53 +0200
+Served asset /logo_apple.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_android.png" for 127.0.0.1 at 2013-05-23 17:44:53 +0200
+Served asset /logo_android.png - 304 Not Modified (1ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-05-23 17:48:33 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 21ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tuktuk.icons.css?body=1" for 127.0.0.1 at 2013-05-23 17:48:33 +0200
+Served asset /tuktuk.icons.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/taxife.css?body=1" for 127.0.0.1 at 2013-05-23 17:48:34 +0200
+Served asset /taxife.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-23 17:48:34 +0200
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/tuktuk.css?body=1" for 127.0.0.1 at 2013-05-23 17:48:34 +0200
+Served asset /tuktuk.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.theme.css?body=1" for 127.0.0.1 at 2013-05-23 17:48:34 +0200
+Served asset /tuktuk.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-23 17:48:34 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-23 17:48:34 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.js?body=1" for 127.0.0.1 at 2013-05-23 17:48:34 +0200
+Served asset /tuktuk.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-23 17:48:34 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/icono.png" for 127.0.0.1 at 2013-05-23 17:48:34 +0200
+Served asset /icono.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_android.png" for 127.0.0.1 at 2013-05-23 17:48:35 +0200
+Served asset /logo_android.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_apple.png" for 127.0.0.1 at 2013-05-23 17:48:35 +0200
+Served asset /logo_apple.png - 304 Not Modified (0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-05-23 17:49:36 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+Compiled taxife.css  (1ms)  (pid 3116)
+Compiled application.css  (4ms)  (pid 3116)
+Completed 200 OK in 205ms (Views: 205.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-23 17:49:36 +0200
+Served asset /application.css - 304 Not Modified (33ms)
+
+
+Started GET "/assets/tuktuk.icons.css?body=1" for 127.0.0.1 at 2013-05-23 17:49:36 +0200
+Served asset /tuktuk.icons.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.theme.css?body=1" for 127.0.0.1 at 2013-05-23 17:49:36 +0200
+Served asset /tuktuk.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/taxife.css?body=1" for 127.0.0.1 at 2013-05-23 17:49:36 +0200
+Served asset /taxife.css - 200 OK (10ms)
+
+
+Started GET "/assets/tuktuk.css?body=1" for 127.0.0.1 at 2013-05-23 17:49:36 +0200
+Served asset /tuktuk.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-23 17:49:36 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-23 17:49:36 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.js?body=1" for 127.0.0.1 at 2013-05-23 17:49:37 +0200
+Served asset /tuktuk.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/background-3.jpg" for 127.0.0.1 at 2013-05-23 17:49:37 +0200
+Served asset /background-3.jpg - 200 OK (50ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-23 17:49:37 +0200
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/icono.png" for 127.0.0.1 at 2013-05-23 17:49:37 +0200
+Served asset /icono.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_apple.png" for 127.0.0.1 at 2013-05-23 17:49:37 +0200
+Served asset /logo_apple.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_android.png" for 127.0.0.1 at 2013-05-23 17:49:37 +0200
+Served asset /logo_android.png - 304 Not Modified (0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-05-23 17:50:38 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Compiled taxife.css  (40ms)  (pid 3116)
+Compiled application.css  (3ms)  (pid 3116)
+Completed 200 OK in 234ms (Views: 234.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/taxife.css?body=1" for 127.0.0.1 at 2013-05-23 17:50:39 +0200
+Served asset /taxife.css - 200 OK (17ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-23 17:50:39 +0200
+Served asset /application.css - 304 Not Modified (88ms)
+
+
+Started GET "/assets/tuktuk.icons.css?body=1" for 127.0.0.1 at 2013-05-23 17:50:39 +0200
+Served asset /tuktuk.icons.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.css?body=1" for 127.0.0.1 at 2013-05-23 17:50:39 +0200
+Served asset /tuktuk.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/tuktuk.theme.css?body=1" for 127.0.0.1 at 2013-05-23 17:50:39 +0200
+Served asset /tuktuk.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-23 17:50:39 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-23 17:50:39 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.js?body=1" for 127.0.0.1 at 2013-05-23 17:50:39 +0200
+Served asset /tuktuk.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-23 17:50:39 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/background-3.jpg" for 127.0.0.1 at 2013-05-23 17:50:40 +0200
+Served asset /background-3.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/icono.png" for 127.0.0.1 at 2013-05-23 17:50:40 +0200
+Served asset /icono.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_apple.png" for 127.0.0.1 at 2013-05-23 17:50:40 +0200
+Served asset /logo_apple.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_android.png" for 127.0.0.1 at 2013-05-23 17:50:40 +0200
+Served asset /logo_android.png - 304 Not Modified (0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-05-23 17:51:14 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 17ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tuktuk.icons.css?body=1" for 127.0.0.1 at 2013-05-23 17:51:14 +0200
+Served asset /tuktuk.icons.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-23 17:51:14 +0200
+Served asset /application.css - 304 Not Modified (37ms)
+
+
+Started GET "/assets/tuktuk.css?body=1" for 127.0.0.1 at 2013-05-23 17:51:14 +0200
+Served asset /tuktuk.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.theme.css?body=1" for 127.0.0.1 at 2013-05-23 17:51:14 +0200
+Served asset /tuktuk.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-23 17:51:14 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/taxife.css?body=1" for 127.0.0.1 at 2013-05-23 17:51:15 +0200
+Served asset /taxife.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-23 17:51:15 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.js?body=1" for 127.0.0.1 at 2013-05-23 17:51:15 +0200
+Served asset /tuktuk.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-23 17:51:15 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/background-3.jpg" for 127.0.0.1 at 2013-05-23 17:51:15 +0200
+Served asset /background-3.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/icono.png" for 127.0.0.1 at 2013-05-23 17:51:15 +0200
+Served asset /icono.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_apple.png" for 127.0.0.1 at 2013-05-23 17:51:15 +0200
+Served asset /logo_apple.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_android.png" for 127.0.0.1 at 2013-05-23 17:51:15 +0200
+Served asset /logo_android.png - 304 Not Modified (0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-05-23 17:53:21 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+Compiled taxife.css  (1ms)  (pid 3116)
+Compiled application.css  (4ms)  (pid 3116)
+Completed 200 OK in 157ms (Views: 157.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tuktuk.css?body=1" for 127.0.0.1 at 2013-05-23 17:53:22 +0200
+Served asset /tuktuk.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-23 17:53:22 +0200
+Served asset /application.css - 304 Not Modified (55ms)
+
+
+Started GET "/assets/taxife.css?body=1" for 127.0.0.1 at 2013-05-23 17:53:22 +0200
+Served asset /taxife.css - 200 OK (12ms)
+
+
+Started GET "/assets/tuktuk.icons.css?body=1" for 127.0.0.1 at 2013-05-23 17:53:22 +0200
+Served asset /tuktuk.icons.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.theme.css?body=1" for 127.0.0.1 at 2013-05-23 17:53:22 +0200
+Served asset /tuktuk.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-23 17:53:22 +0200
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-23 17:53:22 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.js?body=1" for 127.0.0.1 at 2013-05-23 17:53:22 +0200
+Served asset /tuktuk.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-23 17:53:22 +0200
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/backgroundbn.png" for 127.0.0.1 at 2013-05-23 17:53:22 +0200
+Served asset /backgroundbn.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_apple.png" for 127.0.0.1 at 2013-05-23 17:53:22 +0200
+Served asset /logo_apple.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/icono.png" for 127.0.0.1 at 2013-05-23 17:53:23 +0200
+Served asset /icono.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_android.png" for 127.0.0.1 at 2013-05-23 17:53:23 +0200
+Served asset /logo_android.png - 304 Not Modified (0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-05-23 17:53:42 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+Compiled taxife.css  (0ms)  (pid 3116)
+Compiled application.css  (4ms)  (pid 3116)
+Completed 200 OK in 200ms (Views: 199.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tuktuk.icons.css?body=1" for 127.0.0.1 at 2013-05-23 17:53:43 +0200
+Served asset /tuktuk.icons.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/taxife.css?body=1" for 127.0.0.1 at 2013-05-23 17:53:43 +0200
+Served asset /taxife.css - 200 OK (16ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-23 17:53:43 +0200
+Served asset /application.css - 304 Not Modified (58ms)
+
+
+Started GET "/assets/tuktuk.css?body=1" for 127.0.0.1 at 2013-05-23 17:53:43 +0200
+Served asset /tuktuk.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.theme.css?body=1" for 127.0.0.1 at 2013-05-23 17:53:43 +0200
+Served asset /tuktuk.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-23 17:53:43 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-23 17:53:43 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.js?body=1" for 127.0.0.1 at 2013-05-23 17:53:43 +0200
+Served asset /tuktuk.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-23 17:53:43 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2013-05-23 17:53:43 +0200
+Served asset /background.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_apple.png" for 127.0.0.1 at 2013-05-23 17:53:44 +0200
+Served asset /logo_apple.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/icono.png" for 127.0.0.1 at 2013-05-23 17:53:44 +0200
+Served asset /icono.png - 304 Not Modified (6ms)
+
+
+Started GET "/assets/logo_android.png" for 127.0.0.1 at 2013-05-23 17:53:44 +0200
+Served asset /logo_android.png - 304 Not Modified (0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-05-23 17:55:08 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 24ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tuktuk.icons.css?body=1" for 127.0.0.1 at 2013-05-23 17:55:08 +0200
+Served asset /tuktuk.icons.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/taxife.css?body=1" for 127.0.0.1 at 2013-05-23 17:55:08 +0200
+Served asset /taxife.css - 304 Not Modified (16ms)
+
+
+Started GET "/assets/tuktuk.theme.css?body=1" for 127.0.0.1 at 2013-05-23 17:55:08 +0200
+Served asset /tuktuk.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-23 17:55:08 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.css?body=1" for 127.0.0.1 at 2013-05-23 17:55:08 +0200
+Served asset /tuktuk.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-23 17:55:08 +0200
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-23 17:55:08 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.js?body=1" for 127.0.0.1 at 2013-05-23 17:55:09 +0200
+Served asset /tuktuk.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-23 17:55:09 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2013-05-23 17:55:09 +0200
+Served asset /background.jpg - 200 OK (244ms)
+
+
+Started GET "/assets/icono.png" for 127.0.0.1 at 2013-05-23 17:55:09 +0200
+Served asset /icono.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_android.png" for 127.0.0.1 at 2013-05-23 17:55:09 +0200
+Served asset /logo_android.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_apple.png" for 127.0.0.1 at 2013-05-23 17:55:09 +0200
+Served asset /logo_apple.png - 304 Not Modified (0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-05-23 17:55:31 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 16ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tuktuk.theme.css?body=1" for 127.0.0.1 at 2013-05-23 17:55:31 +0200
+Served asset /tuktuk.theme.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-23 17:55:31 +0200
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/tuktuk.css?body=1" for 127.0.0.1 at 2013-05-23 17:55:31 +0200
+Served asset /tuktuk.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.icons.css?body=1" for 127.0.0.1 at 2013-05-23 17:55:31 +0200
+Served asset /tuktuk.icons.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/taxife.css?body=1" for 127.0.0.1 at 2013-05-23 17:55:31 +0200
+Served asset /taxife.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-23 17:55:31 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-23 17:55:31 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.js?body=1" for 127.0.0.1 at 2013-05-23 17:55:31 +0200
+Served asset /tuktuk.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-23 17:55:32 +0200
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2013-05-23 17:55:32 +0200
+Served asset /background.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_android.png" for 127.0.0.1 at 2013-05-23 17:55:32 +0200
+Served asset /logo_android.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_apple.png" for 127.0.0.1 at 2013-05-23 17:55:32 +0200
+Served asset /logo_apple.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/icono.png" for 127.0.0.1 at 2013-05-23 17:55:32 +0200
+Served asset /icono.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-05-23 17:57:33 +0200
+Served asset /rails.png - 304 Not Modified (5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-23 17:57:52 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 15ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tuktuk.css?body=1" for 127.0.0.1 at 2013-05-23 17:57:52 +0200
+Served asset /tuktuk.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-23 17:57:52 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/taxife.css?body=1" for 127.0.0.1 at 2013-05-23 17:57:52 +0200
+Served asset /taxife.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.icons.css?body=1" for 127.0.0.1 at 2013-05-23 17:57:52 +0200
+Served asset /tuktuk.icons.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.theme.css?body=1" for 127.0.0.1 at 2013-05-23 17:57:52 +0200
+Served asset /tuktuk.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-23 17:57:52 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-23 17:57:52 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-23 17:57:52 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.js?body=1" for 127.0.0.1 at 2013-05-23 17:57:52 +0200
+Served asset /tuktuk.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2013-05-23 17:57:52 +0200
+Served asset /background.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/icono.png" for 127.0.0.1 at 2013-05-23 17:57:53 +0200
+Served asset /icono.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_apple.png" for 127.0.0.1 at 2013-05-23 17:57:53 +0200
+Served asset /logo_apple.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_android.png" for 127.0.0.1 at 2013-05-23 17:57:53 +0200
+Served asset /logo_android.png - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-23 18:04:45 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 22ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-23 18:04:45 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-23 18:04:45 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/taxife.css?body=1" for 127.0.0.1 at 2013-05-23 18:04:45 +0200
+Served asset /taxife.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.css?body=1" for 127.0.0.1 at 2013-05-23 18:04:45 +0200
+Served asset /tuktuk.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.icons.css?body=1" for 127.0.0.1 at 2013-05-23 18:04:45 +0200
+Served asset /tuktuk.icons.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/tuktuk.theme.css?body=1" for 127.0.0.1 at 2013-05-23 18:04:45 +0200
+Served asset /tuktuk.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-23 18:04:46 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.js?body=1" for 127.0.0.1 at 2013-05-23 18:04:46 +0200
+Served asset /tuktuk.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-23 18:04:46 +0200
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2013-05-23 18:04:46 +0200
+Served asset /background.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/icono.png" for 127.0.0.1 at 2013-05-23 18:04:46 +0200
+Served asset /icono.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_android.png" for 127.0.0.1 at 2013-05-23 18:04:46 +0200
+Served asset /logo_android.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_apple.png" for 127.0.0.1 at 2013-05-23 18:04:46 +0200
+Served asset /logo_apple.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-23 18:05:41 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (32.0ms)
+Completed 200 OK in 50ms (Views: 50.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-23 18:05:41 +0200
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/tuktuk.css?body=1" for 127.0.0.1 at 2013-05-23 18:05:41 +0200
+Served asset /tuktuk.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.theme.css?body=1" for 127.0.0.1 at 2013-05-23 18:05:41 +0200
+Served asset /tuktuk.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.icons.css?body=1" for 127.0.0.1 at 2013-05-23 18:05:41 +0200
+Served asset /tuktuk.icons.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/taxife.css?body=1" for 127.0.0.1 at 2013-05-23 18:05:41 +0200
+Served asset /taxife.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-23 18:05:41 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-23 18:05:41 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.js?body=1" for 127.0.0.1 at 2013-05-23 18:05:41 +0200
+Served asset /tuktuk.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-23 18:05:41 +0200
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/logo_apple.png" for 127.0.0.1 at 2013-05-23 18:05:42 +0200
+Served asset /logo_apple.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/icono.png" for 127.0.0.1 at 2013-05-23 18:05:42 +0200
+Served asset /icono.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_android.png" for 127.0.0.1 at 2013-05-23 18:05:42 +0200
+Served asset /logo_android.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-23 18:05:54 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 18ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-23 18:05:54 +0200
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/taxife.css?body=1" for 127.0.0.1 at 2013-05-23 18:05:54 +0200
+Served asset /taxife.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.css?body=1" for 127.0.0.1 at 2013-05-23 18:05:54 +0200
+Served asset /tuktuk.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.icons.css?body=1" for 127.0.0.1 at 2013-05-23 18:05:54 +0200
+Served asset /tuktuk.icons.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.theme.css?body=1" for 127.0.0.1 at 2013-05-23 18:05:54 +0200
+Served asset /tuktuk.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-23 18:05:54 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-23 18:05:54 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.js?body=1" for 127.0.0.1 at 2013-05-23 18:05:54 +0200
+Served asset /tuktuk.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-23 18:05:54 +0200
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/icono.png" for 127.0.0.1 at 2013-05-23 18:05:55 +0200
+Served asset /icono.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/logo_apple.png" for 127.0.0.1 at 2013-05-23 18:05:55 +0200
+Served asset /logo_apple.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_android.png" for 127.0.0.1 at 2013-05-23 18:05:55 +0200
+Served asset /logo_android.png - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-23 18:06:32 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 18ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-23 18:06:33 +0200
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/taxife.css?body=1" for 127.0.0.1 at 2013-05-23 18:06:33 +0200
+Served asset /taxife.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-23 18:06:33 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.theme.css?body=1" for 127.0.0.1 at 2013-05-23 18:06:33 +0200
+Served asset /tuktuk.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.css?body=1" for 127.0.0.1 at 2013-05-23 18:06:33 +0200
+Served asset /tuktuk.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.icons.css?body=1" for 127.0.0.1 at 2013-05-23 18:06:33 +0200
+Served asset /tuktuk.icons.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-23 18:06:33 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-23 18:06:33 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.js?body=1" for 127.0.0.1 at 2013-05-23 18:06:33 +0200
+Served asset /tuktuk.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2013-05-23 18:06:33 +0200
+Served asset /background.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/icono.png" for 127.0.0.1 at 2013-05-23 18:06:33 +0200
+Served asset /icono.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_apple.png" for 127.0.0.1 at 2013-05-23 18:06:33 +0200
+Served asset /logo_apple.png - 304 Not Modified (2ms)
+
+
+Started GET "/assets/logo_android.png" for 127.0.0.1 at 2013-05-23 18:06:33 +0200
+Served asset /logo_android.png - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-23 18:08:34 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 17ms (Views: 17.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-23 18:08:34 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.icons.css?body=1" for 127.0.0.1 at 2013-05-23 18:08:34 +0200
+Served asset /tuktuk.icons.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/taxife.css?body=1" for 127.0.0.1 at 2013-05-23 18:08:34 +0200
+Served asset /taxife.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.theme.css?body=1" for 127.0.0.1 at 2013-05-23 18:08:34 +0200
+Served asset /tuktuk.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.css?body=1" for 127.0.0.1 at 2013-05-23 18:08:34 +0200
+Served asset /tuktuk.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-23 18:08:35 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-23 18:08:35 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/tuktuk.js?body=1" for 127.0.0.1 at 2013-05-23 18:08:35 +0200
+Served asset /tuktuk.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-23 18:08:35 +0200
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2013-05-23 18:08:35 +0200
+Served asset /background.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_apple.png" for 127.0.0.1 at 2013-05-23 18:08:35 +0200
+Served asset /logo_apple.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_android.png" for 127.0.0.1 at 2013-05-23 18:08:35 +0200
+Served asset /logo_android.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/icono.png" for 127.0.0.1 at 2013-05-23 18:08:35 +0200
+Served asset /icono.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-23 18:09:36 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 16ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/taxife.css?body=1" for 127.0.0.1 at 2013-05-23 18:09:36 +0200
+Served asset /taxife.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.icons.css?body=1" for 127.0.0.1 at 2013-05-23 18:09:36 +0200
+Served asset /tuktuk.icons.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-23 18:09:36 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.theme.css?body=1" for 127.0.0.1 at 2013-05-23 18:09:36 +0200
+Served asset /tuktuk.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.css?body=1" for 127.0.0.1 at 2013-05-23 18:09:36 +0200
+Served asset /tuktuk.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-23 18:09:36 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-23 18:09:36 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.js?body=1" for 127.0.0.1 at 2013-05-23 18:09:36 +0200
+Served asset /tuktuk.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-23 18:09:37 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2013-05-23 18:09:37 +0200
+Served asset /background.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_apple.png" for 127.0.0.1 at 2013-05-23 18:09:37 +0200
+Served asset /logo_apple.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_android.png" for 127.0.0.1 at 2013-05-23 18:09:37 +0200
+Served asset /logo_android.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/icono.png" for 127.0.0.1 at 2013-05-23 18:09:37 +0200
+Served asset /icono.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-23 18:10:30 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 50ms (Views: 49.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tuktuk.css?body=1" for 127.0.0.1 at 2013-05-23 18:10:30 +0200
+Served asset /tuktuk.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.icons.css?body=1" for 127.0.0.1 at 2013-05-23 18:10:31 +0200
+Served asset /tuktuk.icons.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-23 18:10:31 +0200
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/taxife.css?body=1" for 127.0.0.1 at 2013-05-23 18:10:31 +0200
+Served asset /taxife.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.theme.css?body=1" for 127.0.0.1 at 2013-05-23 18:10:31 +0200
+Served asset /tuktuk.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-23 18:10:31 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-23 18:10:31 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.js?body=1" for 127.0.0.1 at 2013-05-23 18:10:31 +0200
+Served asset /tuktuk.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-23 18:10:31 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2013-05-23 18:10:31 +0200
+Served asset /background.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/icono.png" for 127.0.0.1 at 2013-05-23 18:10:31 +0200
+Served asset /icono.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_apple.png" for 127.0.0.1 at 2013-05-23 18:10:31 +0200
+Served asset /logo_apple.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_android.png" for 127.0.0.1 at 2013-05-23 18:10:31 +0200
+Served asset /logo_android.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-23 18:11:44 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 18ms (Views: 17.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-23 18:11:44 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.css?body=1" for 127.0.0.1 at 2013-05-23 18:11:44 +0200
+Served asset /tuktuk.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/taxife.css?body=1" for 127.0.0.1 at 2013-05-23 18:11:44 +0200
+Served asset /taxife.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.theme.css?body=1" for 127.0.0.1 at 2013-05-23 18:11:44 +0200
+Served asset /tuktuk.theme.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/tuktuk.icons.css?body=1" for 127.0.0.1 at 2013-05-23 18:11:44 +0200
+Served asset /tuktuk.icons.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-23 18:11:45 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-23 18:11:45 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.js?body=1" for 127.0.0.1 at 2013-05-23 18:11:45 +0200
+Served asset /tuktuk.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-23 18:11:45 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2013-05-23 18:11:45 +0200
+Served asset /background.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/icono.png" for 127.0.0.1 at 2013-05-23 18:11:45 +0200
+Served asset /icono.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_android.png" for 127.0.0.1 at 2013-05-23 18:11:45 +0200
+Served asset /logo_android.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_apple.png" for 127.0.0.1 at 2013-05-23 18:11:45 +0200
+Served asset /logo_apple.png - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-23 18:14:19 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 21ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/taxife.css?body=1" for 127.0.0.1 at 2013-05-23 18:14:19 +0200
+Served asset /taxife.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.icons.css?body=1" for 127.0.0.1 at 2013-05-23 18:14:19 +0200
+Served asset /tuktuk.icons.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.theme.css?body=1" for 127.0.0.1 at 2013-05-23 18:14:19 +0200
+Served asset /tuktuk.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.css?body=1" for 127.0.0.1 at 2013-05-23 18:14:19 +0200
+Served asset /tuktuk.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-23 18:14:19 +0200
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-23 18:14:19 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-23 18:14:19 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/tuktuk.js?body=1" for 127.0.0.1 at 2013-05-23 18:14:19 +0200
+Served asset /tuktuk.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-23 18:14:19 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2013-05-23 18:14:19 +0200
+Served asset /background.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_apple.png" for 127.0.0.1 at 2013-05-23 18:14:20 +0200
+Served asset /logo_apple.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/icono.png" for 127.0.0.1 at 2013-05-23 18:14:20 +0200
+Served asset /icono.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_android.png" for 127.0.0.1 at 2013-05-23 18:14:20 +0200
+Served asset /logo_android.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-23 18:41:24 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 31ms (Views: 30.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/taxife.css?body=1" for 127.0.0.1 at 2013-05-23 18:41:24 +0200
+Served asset /taxife.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-23 18:41:24 +0200
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/tuktuk.icons.css?body=1" for 127.0.0.1 at 2013-05-23 18:41:24 +0200
+Served asset /tuktuk.icons.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-23 18:41:24 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.css?body=1" for 127.0.0.1 at 2013-05-23 18:41:24 +0200
+Served asset /tuktuk.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.theme.css?body=1" for 127.0.0.1 at 2013-05-23 18:41:24 +0200
+Served asset /tuktuk.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-23 18:41:25 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.js?body=1" for 127.0.0.1 at 2013-05-23 18:41:25 +0200
+Served asset /tuktuk.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-23 18:41:25 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2013-05-23 18:41:25 +0200
+Served asset /background.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/icono.png" for 127.0.0.1 at 2013-05-23 18:41:25 +0200
+Served asset /icono.png - 304 Not Modified (5ms)
+
+
+Started GET "/assets/logo_apple.png" for 127.0.0.1 at 2013-05-23 18:41:25 +0200
+Served asset /logo_apple.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_android.png" for 127.0.0.1 at 2013-05-23 18:41:25 +0200
+Served asset /logo_android.png - 304 Not Modified (0ms)
