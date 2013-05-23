@@ -4529,3 +4529,465 @@ Served asset /logo_firefox.png - 200 OK (185ms)
 
 Started GET "/assets/logo_android.png" for 127.0.0.1 at 2013-05-23 19:03:27 +0200
 Served asset /logo_android.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-23 19:09:39 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (37.0ms)
+Completed 200 OK in 64ms (Views: 64.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tuktuk.icons.css?body=1" for 127.0.0.1 at 2013-05-23 19:09:39 +0200
+Served asset /tuktuk.icons.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.theme.css?body=1" for 127.0.0.1 at 2013-05-23 19:09:39 +0200
+Served asset /tuktuk.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.css?body=1" for 127.0.0.1 at 2013-05-23 19:09:39 +0200
+Served asset /tuktuk.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-23 19:09:39 +0200
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/taxife.css?body=1" for 127.0.0.1 at 2013-05-23 19:09:39 +0200
+Served asset /taxife.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-23 19:09:39 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-23 19:09:39 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.js?body=1" for 127.0.0.1 at 2013-05-23 19:09:39 +0200
+Served asset /tuktuk.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-23 19:09:39 +0200
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2013-05-23 19:09:41 +0200
+Served asset /background.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/icono.png" for 127.0.0.1 at 2013-05-23 19:09:42 +0200
+Served asset /icono.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_firefox.png" for 127.0.0.1 at 2013-05-23 19:09:42 +0200
+Served asset /logo_firefox.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_apple.png" for 127.0.0.1 at 2013-05-23 19:09:42 +0200
+Served asset /logo_apple.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_android.png" for 127.0.0.1 at 2013-05-23 19:09:42 +0200
+Served asset /logo_android.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/iphone.png" for 127.0.0.1 at 2013-05-23 19:09:42 +0200
+Served asset /iphone.png - 200 OK (205ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-23 19:10:07 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 20ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-23 19:10:07 +0200
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/taxife.css?body=1" for 127.0.0.1 at 2013-05-23 19:10:07 +0200
+Served asset /taxife.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.icons.css?body=1" for 127.0.0.1 at 2013-05-23 19:10:07 +0200
+Served asset /tuktuk.icons.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.css?body=1" for 127.0.0.1 at 2013-05-23 19:10:07 +0200
+Served asset /tuktuk.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.theme.css?body=1" for 127.0.0.1 at 2013-05-23 19:10:07 +0200
+Served asset /tuktuk.theme.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-23 19:10:07 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-23 19:10:07 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.js?body=1" for 127.0.0.1 at 2013-05-23 19:10:07 +0200
+Served asset /tuktuk.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-23 19:10:07 +0200
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2013-05-23 19:10:08 +0200
+Served asset /background.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_firefox.png" for 127.0.0.1 at 2013-05-23 19:10:08 +0200
+Served asset /logo_firefox.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/icono.png" for 127.0.0.1 at 2013-05-23 19:10:08 +0200
+Served asset /icono.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/logo_android.png" for 127.0.0.1 at 2013-05-23 19:10:08 +0200
+Served asset /logo_android.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_apple.png" for 127.0.0.1 at 2013-05-23 19:10:08 +0200
+Served asset /logo_apple.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/iphone.png" for 127.0.0.1 at 2013-05-23 19:10:08 +0200
+Served asset /iphone.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-23 19:11:12 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 17ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tuktuk.css?body=1" for 127.0.0.1 at 2013-05-23 19:11:12 +0200
+Served asset /tuktuk.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.theme.css?body=1" for 127.0.0.1 at 2013-05-23 19:11:12 +0200
+Served asset /tuktuk.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-23 19:11:12 +0200
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/taxife.css?body=1" for 127.0.0.1 at 2013-05-23 19:11:12 +0200
+Served asset /taxife.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.icons.css?body=1" for 127.0.0.1 at 2013-05-23 19:11:12 +0200
+Served asset /tuktuk.icons.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-23 19:11:12 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-23 19:11:12 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/tuktuk.js?body=1" for 127.0.0.1 at 2013-05-23 19:11:13 +0200
+Served asset /tuktuk.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-23 19:11:13 +0200
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2013-05-23 19:11:13 +0200
+Served asset /background.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_apple.png" for 127.0.0.1 at 2013-05-23 19:11:13 +0200
+Served asset /logo_apple.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_firefox.png" for 127.0.0.1 at 2013-05-23 19:11:13 +0200
+Served asset /logo_firefox.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/icono.png" for 127.0.0.1 at 2013-05-23 19:11:13 +0200
+Served asset /icono.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_android.png" for 127.0.0.1 at 2013-05-23 19:11:13 +0200
+Served asset /logo_android.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/iphone.png" for 127.0.0.1 at 2013-05-23 19:11:13 +0200
+Served asset /iphone.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-23 19:11:38 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 17ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tuktuk.icons.css?body=1" for 127.0.0.1 at 2013-05-23 19:11:38 +0200
+Served asset /tuktuk.icons.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.theme.css?body=1" for 127.0.0.1 at 2013-05-23 19:11:38 +0200
+Served asset /tuktuk.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/taxife.css?body=1" for 127.0.0.1 at 2013-05-23 19:11:38 +0200
+Served asset /taxife.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.css?body=1" for 127.0.0.1 at 2013-05-23 19:11:38 +0200
+Served asset /tuktuk.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-23 19:11:38 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-23 19:11:38 +0200
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-23 19:11:38 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-23 19:11:38 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.js?body=1" for 127.0.0.1 at 2013-05-23 19:11:38 +0200
+Served asset /tuktuk.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2013-05-23 19:11:38 +0200
+Served asset /background.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_apple.png" for 127.0.0.1 at 2013-05-23 19:11:39 +0200
+Served asset /logo_apple.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_firefox.png" for 127.0.0.1 at 2013-05-23 19:11:39 +0200
+Served asset /logo_firefox.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/icono.png" for 127.0.0.1 at 2013-05-23 19:11:39 +0200
+Served asset /icono.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_android.png" for 127.0.0.1 at 2013-05-23 19:11:39 +0200
+Served asset /logo_android.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/iphone.png" for 127.0.0.1 at 2013-05-23 19:11:39 +0200
+Served asset /iphone.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-23 19:12:25 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 17ms (Views: 17.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/taxife.css?body=1" for 127.0.0.1 at 2013-05-23 19:12:25 +0200
+Served asset /taxife.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.icons.css?body=1" for 127.0.0.1 at 2013-05-23 19:12:25 +0200
+Served asset /tuktuk.icons.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-23 19:12:25 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.css?body=1" for 127.0.0.1 at 2013-05-23 19:12:25 +0200
+Served asset /tuktuk.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.theme.css?body=1" for 127.0.0.1 at 2013-05-23 19:12:25 +0200
+Served asset /tuktuk.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-23 19:12:25 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-23 19:12:26 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.js?body=1" for 127.0.0.1 at 2013-05-23 19:12:26 +0200
+Served asset /tuktuk.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-23 19:12:26 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2013-05-23 19:12:26 +0200
+Served asset /background.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_firefox.png" for 127.0.0.1 at 2013-05-23 19:12:26 +0200
+Served asset /logo_firefox.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/icono.png" for 127.0.0.1 at 2013-05-23 19:12:26 +0200
+Served asset /icono.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/iphone.png" for 127.0.0.1 at 2013-05-23 19:12:26 +0200
+Served asset /iphone.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_apple.png" for 127.0.0.1 at 2013-05-23 19:12:26 +0200
+Served asset /logo_apple.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_android.png" for 127.0.0.1 at 2013-05-23 19:12:26 +0200
+Served asset /logo_android.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-23 19:12:51 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 16ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/taxife.css?body=1" for 127.0.0.1 at 2013-05-23 19:12:51 +0200
+Served asset /taxife.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-23 19:12:51 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.css?body=1" for 127.0.0.1 at 2013-05-23 19:12:51 +0200
+Served asset /tuktuk.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.icons.css?body=1" for 127.0.0.1 at 2013-05-23 19:12:51 +0200
+Served asset /tuktuk.icons.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.theme.css?body=1" for 127.0.0.1 at 2013-05-23 19:12:51 +0200
+Served asset /tuktuk.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-23 19:12:51 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-23 19:12:51 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.js?body=1" for 127.0.0.1 at 2013-05-23 19:12:51 +0200
+Served asset /tuktuk.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-23 19:12:51 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2013-05-23 19:12:51 +0200
+Served asset /background.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_apple.png" for 127.0.0.1 at 2013-05-23 19:12:52 +0200
+Served asset /logo_apple.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/icono.png" for 127.0.0.1 at 2013-05-23 19:12:52 +0200
+Served asset /icono.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_firefox.png" for 127.0.0.1 at 2013-05-23 19:12:52 +0200
+Served asset /logo_firefox.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_android.png" for 127.0.0.1 at 2013-05-23 19:12:52 +0200
+Served asset /logo_android.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/iphone.png" for 127.0.0.1 at 2013-05-23 19:12:52 +0200
+Served asset /iphone.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-23 19:13:19 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 32ms (Views: 31.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/taxife.css?body=1" for 127.0.0.1 at 2013-05-23 19:13:20 +0200
+Served asset /taxife.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.icons.css?body=1" for 127.0.0.1 at 2013-05-23 19:13:20 +0200
+Served asset /tuktuk.icons.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/tuktuk.css?body=1" for 127.0.0.1 at 2013-05-23 19:13:20 +0200
+Served asset /tuktuk.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-23 19:13:20 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.theme.css?body=1" for 127.0.0.1 at 2013-05-23 19:13:20 +0200
+Served asset /tuktuk.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-23 19:13:20 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-23 19:13:20 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuktuk.js?body=1" for 127.0.0.1 at 2013-05-23 19:13:20 +0200
+Served asset /tuktuk.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-23 19:13:20 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2013-05-23 19:13:20 +0200
+Served asset /background.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/icono.png" for 127.0.0.1 at 2013-05-23 19:13:21 +0200
+Served asset /icono.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_apple.png" for 127.0.0.1 at 2013-05-23 19:13:21 +0200
+Served asset /logo_apple.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_firefox.png" for 127.0.0.1 at 2013-05-23 19:13:21 +0200
+Served asset /logo_firefox.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/iphone.png" for 127.0.0.1 at 2013-05-23 19:13:21 +0200
+Served asset /iphone.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo_android.png" for 127.0.0.1 at 2013-05-23 19:13:21 +0200
+Served asset /logo_android.png - 304 Not Modified (0ms)
